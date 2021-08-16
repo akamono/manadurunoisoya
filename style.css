@@ -1,48 +1,72 @@
+body {
+  width: 1200px;
+  margin: auto;
+}
 
 header h1 a {
   color: #000;
   text-decoration: none;
 }
 
-
 h1 {
+  margin-left: 16px;
+  margin-bottom: 3px;
   font-size: 1em;
   font-weight: lighter;
 }
 
-nav .top   {
+.menu ul {
   margin: 0;
   padding: 0;
   list-style: none; 
+  overflow: hidden;
 }
 
-  nav li a {
-    display: block;
-    padding: 5px;
-    color: #000;
-    font-size: 1.2em;
-    text-decoration: none;
-  }
+.menu li a {
+  display: block;
+  padding: 12px 32px;
+  color: rgb(255, 255, 255);
+  font-size: 1.4em;
+  text-decoration: none;
+  text-shadow: 2px 1px rgb(138, 191, 252);
+}
 
-  nav li a:hover {
-    background-color: rgb(210, 241, 250);
-  }
+ .menu {
+   margin-bottom: 5px;
+   background-color: rgb(129, 209, 247);
+}
 
-  nav ul ::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
+.menu li a:hover {
+  background-color: rgb(151, 216, 247);
+  
+  
+  
+}
 
-  .top li {
-    float: left;
-    width: auto;
-  }
+.menu ul ::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.menu li {
+  float: left;
+  width: auto;
+}
+
+
+
 
 .item1 h2 {
   margin-bottom: 10px;
   font-size: 2em;
 }
+
+footer p {
+  margin: 0%;
+}
+
+
 
 @media (min-width:768px) {
   .container {
@@ -56,9 +80,4 @@ nav .top   {
   .item2 {
     width: 50%;
   }
-}
-
-footer p {
-  margin: 0%;
-  
 }

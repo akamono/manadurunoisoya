@@ -1,7 +1,4 @@
-body {
-  width: 1200px;
-  margin: auto;
-}
+
 
 header h1 a {
   color: #000;
@@ -15,69 +12,88 @@ h1 {
   font-weight: lighter;
 }
 
+.menu {
+  margin-bottom: 16px;
+  background-color: rgb(129, 209, 247);
+  border-radius: 5px;
+  
+}
+
 .menu ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; 
-  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  margin: 0px;
+  padding: 4px;
+  list-style-type: none;
 }
 
 .menu li a {
   display: block;
-  padding: 12px 32px;
+  padding: 12px 24px;
   color: rgb(255, 255, 255);
   font-size: 1.4em;
   text-decoration: none;
   text-shadow: 2px 1px rgb(138, 191, 252);
 }
 
- .menu {
-   margin-bottom: 5px;
-   background-color: rgb(129, 209, 247);
-}
 
 .menu li a:hover {
   background-color: rgb(151, 216, 247);
-  
-  
-  
-}
+  }
 
-.menu ul ::after {
-  content: "";
+
+.msea {
   display: block;
-  clear: both;
+  max-width: 100%;
+  height: auto;
+  margin: 0px auto 20px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px rgb(0,0,0,0.3);
 }
 
-.menu li {
-  float: left;
-  width: auto;
+.place {
+  max-width: 100%;
+  width: 600px;
+  height: 570px;
+  margin: auto;
 }
 
+.nature, .sea {
+  max-width: 100%;
+  width: 600px;
+  height: 250px;
+  margin: auto;
+}
 
-
-
-.item1 h2 {
+h2 {
   margin-bottom: 10px;
-  font-size: 2em;
+  font-size: 1.8em;
 }
+
+.kanagawa {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0px auto;
+  border: 1px solid rgb(94, 93, 93);
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px rgb(0,0,0,0.3); 
+
+}
+
+footer {
+  width: 400px;
+  margin: 0 auto;
+  }
 
 footer p {
-  margin: 0%;
-}
+  margin: 0px;
 
+}  
 
-
-@media (min-width:768px) {
-  .container {
-    display: flex;
-  }
-  
-  .item1 {
-    width: 50%;
-  }
-  
-  .item2 {
-    width: 50%;
-  }
-}
+@media (max-width:599px) {
+.menu li a {
+  padding: 8px 4px;
+  font-size: 0.6em;
+}}

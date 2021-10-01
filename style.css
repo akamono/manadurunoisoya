@@ -62,7 +62,7 @@ h1 {
 .nature, .sea {
   max-width: 100%;
   width: 600px;
-  height: 560px;
+  height: 840px;
   margin: auto;
 }
 
@@ -79,8 +79,19 @@ h2 {
   border: 1px solid rgb(128, 128, 128);
   border-radius: 4px;
   box-shadow: 4px 4px 4px rgb(0,0,0,0.3); 
-
 }
+
+.leaf {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0px auto;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px rgb(0,0,0,0.3); 
+}
+
+
 
 footer {
   width: 400px;

@@ -42,6 +42,16 @@ h1 {
   background-color: rgb(151, 216, 247);
   }
 
+.fa-color {
+  color: rgb(245, 71, 71);
+  text-shadow: 1px 1px rgb(247, 229, 233);
+}
+
+.oct {
+  width: 60px;
+  margin-top: 4px;
+  margin-left: auto;
+}
 
 .msea {
   display: block;
@@ -53,7 +63,7 @@ h1 {
 }
 
 .place {
-  max-width: 100%;
+  /* max-width: 100%; */
   width: 600px;
   height: 570px;
   margin: auto;
